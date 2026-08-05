@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://olfyn.io/schema/osp-profile-v1.0.json",
+  "title": "OSP Profile",
+  "description": "Open Scent Protocol v1.0 — Scent Profile Schema",
+  "type": "object",
+  "required": ["osp_version", "scent_id", "name", "profile", "intensity", "duration_ms", "created_at"],
+  "properties": {
+    "osp_version":  { "type": "string", "enum": ["1.0"] },
+    "scent_id":     { "type": "string", "minLength": 3, "maxLength": 128 },
+    "name":         { "type": "string", "minLength": 1, "maxLength": 256 },
+    "description":  { "type": "string" },
+    "author":       { "type": "string" },
+    "created_at":   { "type": "string", "format": "date-time" },
+    "updated_at":   { "type": "string", "format": "date-time" },
+    "profile": {
+      "type": "object",
+      "required": ["floral","frutal","herbal","leñoso","ahumado","especiado","animal","químico","marino","dulce"],
+      "properties": {
+        "floral":    { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "frutal":    { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "herbal":    { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "leñoso":    { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "ahumado":   { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "especiado": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "animal":    { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "químico":   { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "marino":    { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "dulce":     { "type": "number", "minimum": 0.0, "maximum": 1.0 }
+      },
+      "additionalProperties": false
+    },
+    "intensity":    { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+    "duration_ms":  { "type": "integer", "minimum": 100 },
+    "fade_in_ms":   { "type": "integer", "minimum": 0, "default": 0 },
+    "fade_out_ms":  { "type": "integer", "minimum": 0, "default": 0 },
+    "repeat":       { "type": "integer", "minimum": 0, "default": 1 },
+    "interval_ms":  { "type": "integer", "minimum": 0, "default": 0 },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "category": { "type": "string", "enum": ["memoria","presencia","recuerdo","wellness","therapy","general"] },
+        "person":   { "type": "string" },
+        "tags":     { "type": "array", "items": { "type": "string" } },
+        "notes":    { "type": "string" },
+        "language": { "type": "string" }
+      }
+    },
+    "extensions": { "type": "object" }
+  },
+  "additionalProperties": false
+}
