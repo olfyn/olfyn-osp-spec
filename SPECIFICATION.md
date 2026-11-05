@@ -4,7 +4,7 @@
 **Status:** Draft  
 **Date:** 2026-07-01  
 **License:** MIT  
-**Repository:** github.com/olfyn/olfyn-osp-spec  
+**Repository:** github.com/LIAMHuman/olfyn-osp-spec  
 
 ---
 
@@ -50,14 +50,18 @@ Two types of profiles exist in OSP:
 **Predefined profiles** — for scents with documented chemistry:
 - Wines: aromatic chemistry documented by enologists
 - Perfumery: olfactory notes published by fragrance houses
-- Therapy: clinically validated aromatherapy protocols
+- Wellness: aromatherapy protocols published by qualified professionals
 
 **Captured profiles** — for unique personal scent signatures:
-- Memory: a patient's meaningful scents (garden, home, family)
+- Memory: a person's meaningful scents (garden, home, family)
 - Presence: a partner's personal scent signature
 - Remembrance: preserving the scent of someone who has passed
 
 The **hybrid capture** method (new in v1.1) is the recommended approach for captured profiles.
+
+### 1.3 Health and safety notice
+
+OSP is a data format, not a medical device. It makes no therapeutic or clinical claims. Profiles, sessions and categories that mention memory, wellness or therapy describe intended uses only. Any health-related use must follow the guidance of qualified professionals and the regulations that apply where it is used.
 
 ---
 
@@ -247,7 +251,7 @@ The `confidence` field (0.0–1.0) indicates how well the sensor data and verbal
 
 ## 4. OSP Sessions
 
-A session is an ordered sequence of profiles for therapeutic protocols.
+A session is an ordered sequence of profiles, e.g. for a reminiscence or wellness activity.
 
 ```json
 {
@@ -360,12 +364,12 @@ A session is an ordered sequence of profiles for therapeutic protocols.
 
 | Category | Creation method | Description |
 |---|---|---|
-| `memoria` | Hybrid capture | Alzheimer therapy — personal meaningful scents |
+| `memoria` | Hybrid capture | Personal meaningful scents for memory and reminiscence |
 | `presencia` | Hybrid capture | Partner's personal scent signature |
 | `recuerdo` | Hybrid capture | Preserved scent of someone who has passed |
 | `vinos` | Predefined | Documented wine aromatic chemistry |
 | `perfumeria` | Predefined | Published perfumery olfactory notes |
-| `therapy` | Predefined | Clinically validated aromatherapy |
+| `therapy` | Predefined | Aromatherapy protocols published by qualified professionals (no clinical claim by OSP) |
 | `general` | Any | Open category |
 
 > Categories are open strings — any value is valid. New categories can be added without modifying the protocol.
@@ -381,7 +385,7 @@ Public database of community OSP profiles.
 | `olfyn_` | Official | Validated by OLFYN team |
 | `personal_` | Personal | Private user profiles |
 | `comm_` | Community | Community-verified |
-| `therapy_` | Therapeutic | Clinically validated |
+| `therapy_` | Therapeutic | Published by qualified professionals; source required |
 | `exp_` | Experimental | Unverified, in testing |
 
 ---
@@ -431,7 +435,7 @@ OSP follows [Semantic Versioning](https://semver.org/):
 ## 12. Governance
 
 **License:** MIT — see [LICENSE](LICENSE)  
-**Repository:** [github.com/olfyn/olfyn-osp-spec](https://github.com/olfyn/olfyn-osp-spec)
+**Repository:** [github.com/LIAMHuman/olfyn-osp-spec](https://github.com/LIAMHuman/olfyn-osp-spec)
 
 **Change process:**
 1. Propose via GitHub Issues

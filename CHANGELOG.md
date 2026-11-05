@@ -1,5 +1,23 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+- Reference profile validator (`tools/validate.py`) and CI that validates the examples
+- `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md` and issue templates
+- Health and safety notice (spec §1.3): OSP makes no therapeutic or clinical claims
+
+### Changed
+- Repository layout: v1.1 at the root, v1.0 under `versions/v1.0/`
+- README rewritten in English
+- Health-related wording in the spec and examples no longer implies clinical validation
+- Repository links point to github.com/LIAMHuman/olfyn-osp-spec
+
+### Fixed
+- README quick example was missing the required `created_at` field
+
+---
+
 ## [1.1.0] — 2026-07-01
 
 ### Added

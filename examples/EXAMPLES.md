@@ -1,6 +1,6 @@
 # OSP v1.1 Profile Examples
 
-## 1. Hybrid Capture — Memory (Alzheimer)
+## 1. Hybrid Capture — Memory
 
 Created with BME688 sensor + verbal description + AI synthesis.
 
@@ -42,7 +42,7 @@ Created with BME688 sensor + verbal description + AI synthesis.
   "metadata": {
     "category": "memoria",
     "person":   "Mamá",
-    "tags":     ["alzheimer", "memoria", "jardín", "terapia"]
+    "tags":     ["memoria", "jardín", "familia"]
   }
 }
 ```
@@ -172,13 +172,15 @@ No sensor needed — chemistry documented by enologists.
 
 ---
 
-## 5. Therapy Session — Alzheimer 20-minute Protocol
+## 5. Session — 20-minute Memory Reminiscence Sequence
+
+> Illustrative only. OSP makes no therapeutic or clinical claims; see the health and safety notice in the specification.
 
 ```json
 {
   "osp_version":       "1.1",
-  "session_id":        "therapy_alzheimer_20min_001",
-  "session_name":      "Alzheimer Memory Therapy — 20 min",
+  "session_id":        "memoria_reminiscence_20min_001",
+  "session_name":      "Memory Reminiscence — 20 min",
   "category":          "memoria",
   "total_duration_ms": 1200000,
   "sequence": [
@@ -207,7 +209,7 @@ No sensor needed — chemistry documented by enologists.
   ],
   "log_responses": true,
   "metadata": {
-    "notes": "Standard 20-minute Alzheimer olfactory stimulation protocol"
+    "notes": "Example 20-minute reminiscence sequence (illustrative, not a clinical protocol)"
   }
 }
 ```
