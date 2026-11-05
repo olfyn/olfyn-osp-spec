@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://olfyn.io/schema/osp-profile-v1.1.json",
+  "$id": "https://raw.githubusercontent.com/LIAMHuman/olfyn-osp-spec/main/schema/osp-profile-v1.1.json",
   "title": "OSP Profile v1.1",
   "description": "Open Scent Protocol v1.1 — includes hybrid capture field",
   "type": "object",

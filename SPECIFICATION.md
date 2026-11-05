@@ -445,4 +445,4 @@ OSP follows [Semantic Versioning](https://semver.org/):
 
 ---
 
-*OSP v1.1 · OLFYN · July 2026 · MIT License · olfyn.io*
+*OSP v1.1 · OLFYN · July 2026 · MIT License*

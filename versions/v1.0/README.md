@@ -146,4 +146,4 @@ MIT License — see [LICENSE](LICENSE)
 
 ---
 
-*OLFYN · olfyn.io · June 2026*
+*OLFYN · June 2026*

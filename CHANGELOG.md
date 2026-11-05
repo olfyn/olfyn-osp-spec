@@ -12,6 +12,7 @@
 - README rewritten in English
 - Health-related wording in the spec and examples no longer implies clinical validation
 - Repository links point to github.com/LIAMHuman/olfyn-osp-spec
+- Removed references to the `olfyn.io` domain, which the project does not own: schema `$id`s now point to this repository, and v1.0's OLFYN DB host is a `{OLFYN_DB_HOST}` placeholder
 
 ### Fixed
 - README quick example was missing the required `created_at` field

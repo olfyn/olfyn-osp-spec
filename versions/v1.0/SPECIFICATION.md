@@ -299,11 +299,11 @@ OLFYN DB is a public database of community-contributed OSP profiles.
 
 | Endpoint | Description |
 |---|---|
-| GET api.olfyn.io/v1/db/profiles | Search and list profiles |
-| GET api.olfyn.io/v1/db/profiles/{id} | Get profile by ID |
-| POST api.olfyn.io/v1/db/profiles | Publish a profile (auth required) |
-| GET api.olfyn.io/v1/db/profiles/{id}/similar | Find similar profiles |
-| GET api.olfyn.io/v1/db/search?q=lavender | Search by name or tag |
+| GET {OLFYN_DB_HOST}/v1/db/profiles | Search and list profiles |
+| GET {OLFYN_DB_HOST}/v1/db/profiles/{id} | Get profile by ID |
+| POST {OLFYN_DB_HOST}/v1/db/profiles | Publish a profile (auth required) |
+| GET {OLFYN_DB_HOST}/v1/db/profiles/{id}/similar | Find similar profiles |
+| GET {OLFYN_DB_HOST}/v1/db/search?q=lavender | Search by name or tag |
 
 ### 6.2 Profile ID Prefixes
 
@@ -392,4 +392,4 @@ MIT License — see [LICENSE](../LICENSE)
 
 ---
 
-*OSP v1.0 · OLFYN · June 2026 · MIT License · olfyn.io*
+*OSP v1.0 · OLFYN · June 2026 · MIT License*
