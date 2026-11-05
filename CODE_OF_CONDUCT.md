@@ -14,6 +14,6 @@ Many OSP use cases involve memories, loss and people's health. Treat stories and
 
 ## Reporting
 
-To report unacceptable behavior, contact the project maintainer at **[CONTACT EMAIL PENDING]**. All reports will be reviewed promptly and handled confidentially.
+To report unacceptable behavior, contact the project maintainer at **olfyn.project@gmail.com**. All reports will be reviewed promptly and handled confidentially.
 
 The full text of the Contributor Covenant, including enforcement guidelines, applies.
