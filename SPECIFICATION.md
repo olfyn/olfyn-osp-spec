@@ -4,7 +4,7 @@
 **Status:** Draft  
 **Date:** 2026-07-01  
 **License:** MIT  
-**Repository:** github.com/LIAMHuman/olfyn-osp-spec  
+**Repository:** github.com/olfyn/olfyn-osp-spec  
 
 ---
 
@@ -435,7 +435,7 @@ OSP follows [Semantic Versioning](https://semver.org/):
 ## 12. Governance
 
 **License:** MIT — see [LICENSE](LICENSE)  
-**Repository:** [github.com/LIAMHuman/olfyn-osp-spec](https://github.com/LIAMHuman/olfyn-osp-spec)
+**Repository:** [github.com/olfyn/olfyn-osp-spec](https://github.com/olfyn/olfyn-osp-spec)
 
 **Change process:**
 1. Propose via GitHub Issues

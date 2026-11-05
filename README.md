@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/OSP-v1.1-blue.svg)](SPECIFICATION.md)
 [![Status](https://img.shields.io/badge/Status-Draft-orange.svg)](SPECIFICATION.md)
-[![Validate examples](https://github.com/LIAMHuman/olfyn-osp-spec/actions/workflows/validate.yml/badge.svg)](.github/workflows/validate.yml)
+[![Validate examples](https://github.com/olfyn/olfyn-osp-spec/actions/workflows/validate.yml/badge.svg)](.github/workflows/validate.yml)
 
 **Contributors wanted.** OSP is an early draft and we are looking for people to help shape it: hardware makers, firmware and backend developers, chemists, perfumers, sommeliers, and researchers. See [How to contribute](#how-to-contribute).
 
